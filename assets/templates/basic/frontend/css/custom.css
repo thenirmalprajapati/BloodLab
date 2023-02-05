@@ -1,0 +1,89 @@
+.btn:focus{
+	outline:none;
+  	box-shadow:none;
+}
+.btn-primary{
+  	background-color: #000 !important;
+  	border:none;
+}
+.btn-danger {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+.support-btn{
+    height: 39px;
+    padding: 10px;
+    display: inline-flex;
+}
+.support-input-group{
+    margin-top: 15px;
+}
+.error{
+	color: #dc3545;
+}
+.input-group label.error{
+    top: 100%;
+	position: absolute;
+}
+
+
+.timepicki.time_pick input {
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+
+.timepicki .timepicker_wrap {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 20px 0 rgba(123, 123, 123, 0.25);
+}
+
+.timepicki .timepicker_wrap .prev, .timepicki .timepicker_wrap .next {
+    width: 58px;
+    padding: 17px;
+}
+
+.timepicki .timepicker_wrap .timepicki-input {
+    padding: 15px 10px;
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
+.pincode-input-container input:focus, .pincode-input-container input:active {
+    box-shadow: none;
+    border-color: #7367f0;
+}
+
+.pincode-input-container input ~ input:focus, .pincode-input-container input ~ input:active {
+    border-left-width: 1px;
+}
+
+.custom-switch .custom-control-label::after {
+    top: calc(.25rem + -2px);
+}
+
+.timepicker_wrap .action-next,
+.timepicker_wrap .action-prev {
+    position: relative;
+}
+
+.timepicker_wrap .action-next::before,
+.timepicker_wrap .action-prev::before {
+    position: absolute;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    color: #000000;
+    left: 23px;
+}
+
+.timepicker_wrap .action-next::before {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    top: 0;
+}
+
+.timepicker_wrap .action-prev::before {
+    bottom: 0;
+}
